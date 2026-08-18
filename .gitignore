@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+frontend/certs/
+.microengine-deploy/
+yuyi-deploy-package.tar.gz
+deploy/funasr/.venv/

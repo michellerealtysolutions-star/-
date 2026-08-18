@@ -1,0 +1,7 @@
+# FunASR 自部署依赖
+funasr>=1.2
+torch
+torchaudio
+fastapi
+uvicorn[standard]
+python-multipart

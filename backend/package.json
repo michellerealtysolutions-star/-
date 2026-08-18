@@ -1,0 +1,19 @@
+{
+  "name": "generational-translator-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "MODEL_API_KEY= MODEL_BASE_URL= ASR_API_URL= ASR_API_KEY= node --test",
+    "analyze:feedback": "node scripts/analyze-feedback.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.2.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "语译 · 沟通翻译器",
+  "short_name": "语译",
+  "description": "弥合代沟的中英文沟通翻译工具",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

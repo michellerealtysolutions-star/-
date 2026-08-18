@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-18T04:43:43.430Z",
+  "records": 2,
+  "categories": [
+    {
+      "name": "其他",
+      "count": 2
+    }
+  ],
+  "suggestions": [
+    {
+      "category": "其他",
+      "count": 2,
+      "action": "把高频错误样例加入离线兜底或提示词 few-shot",
+      "examples": [
+        {
+          "text": "你好",
+          "translation": "你好",
+          "feedback": "测试反馈"
+        },
+        {
+          "text": "",
+          "translation": "",
+          "feedback": "测试"
+        }
+      ]
+    }
+  ]
+}
