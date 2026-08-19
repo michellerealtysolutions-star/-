@@ -81,15 +81,16 @@ npm install
 npm run dev
 ```
 
-打开 `http://localhost:5173`。
+打开 `http://localhost:5173`。如果本地存在 `frontend/certs/`，Vite 会自动切换为 `https://localhost:5173`。
 
 ### 生产模式
 
 ```bash
+cd 项目根目录
 ./start-production.sh
 ```
 
-该脚本会先构建前端，再让后端同时托管 API 和前端静态文件，默认地址为 `http://localhost:3001`。
+该脚本会在首次运行时自动安装前后端依赖，然后构建前端，并由后端同时托管 API 和前端静态文件。默认地址为 `http://localhost:3001`。
 
 ### 自动演示
 
